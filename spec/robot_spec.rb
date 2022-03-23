@@ -1,11 +1,9 @@
-# frozen_string_literal: true
+require "robot"
 
-RSpec.describe Robot do
-  it "has a version number" do
-    expect(Robot::VERSION).not_to be nil
+RSpec.describe Robot_guy do
+
+  it "function works" do
+    expect(Robot_guy.report).to eq(true) 
   end
-
-  it "does something useful" do
-    expect(false).to eq(true)
   end
 end
